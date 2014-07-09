@@ -21,6 +21,7 @@
 		E274C7B2196CA4690017E566 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E274C794196CA4690017E566 /* UIKit.framework */; };
 		E274C7BA196CA4690017E566 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E274C7B8196CA4690017E566 /* InfoPlist.strings */; };
 		E274C7BC196CA4690017E566 /* Body_fat_calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E274C7BB196CA4690017E566 /* Body_fat_calculatorTests.m */; };
+		E274C7C7196CA7210017E566 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E274C7C6196CA7210017E566 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E274C7B7196CA4690017E566 /* Body fat calculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Body fat calculatorTests-Info.plist"; sourceTree = "<group>"; };
 		E274C7B9196CA4690017E566 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E274C7BB196CA4690017E566 /* Body_fat_calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Body_fat_calculatorTests.m; sourceTree = "<group>"; };
+		E274C7C5196CA7210017E566 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		E274C7C6196CA7210017E566 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				E274C79F196CA4690017E566 /* AppDelegate.h */,
 				E274C7A0196CA4690017E566 /* AppDelegate.m */,
 				E274C7A2196CA4690017E566 /* Main.storyboard */,
+				E274C7C5196CA7210017E566 /* MyTableViewController.h */,
+				E274C7C6196CA7210017E566 /* MyTableViewController.m */,
 				E274C7A5196CA4690017E566 /* ViewController.h */,
 				E274C7A6196CA4690017E566 /* ViewController.m */,
 				E274C7A8196CA4690017E566 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				E274C7A7196CA4690017E566 /* ViewController.m in Sources */,
 				E274C7A1196CA4690017E566 /* AppDelegate.m in Sources */,
 				E274C79D196CA4690017E566 /* main.m in Sources */,
+				E274C7C7196CA7210017E566 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
